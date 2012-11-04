@@ -46,7 +46,7 @@ select_weekday_tag :week_start_day, 3
 
 ### self.weekday
 
-`Date.weekday`
+`Date.weekday(idx)`
 
 Given a weekday by name or index, return the weekday's name.
 
@@ -61,9 +61,9 @@ Date.weekday 3
 
 ### self.parse_weekday
 
-* `Date.parse_weekday`
-* `DateTime.parse_weekday`
-* `ActiveSupport.TimeZone::parse_weekday`
+* `Date.parse_weekday(idx)`
+* `DateTime.parse_weekday(idx)`
+* `ActiveSupport.TimeZone::parse_weekday(idx)`
 
 Given a weekday by name or index, parse it as a date/time.
 
