@@ -1,6 +1,7 @@
 #select_weekday
 
-A &lt;select> tag for days of the week, plus some convenience methods for handling weekdays.
+A &lt;select> tag for easily picking a day of the week, 
+plus some convenience methods for handling weekdays throughout your code.
 
 ## Installation
 
